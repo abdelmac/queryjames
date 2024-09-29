@@ -5,19 +5,26 @@ body {
 }
 
 div.navbar {
-    background-color: #3d97db;
-    color: #05111a;
+    background-color: #05111a;
+    color: #fafcfe;
     display: flex;
     justify-content: space-between;
     position: fixed;
     width: 100%;
     top:0;
+    text-decoration: none;
+
+}
+
+div.navbar .nav a{
+    text-decoration: none;
+    color: #fafcfe;
 
 }
 
 div.navbar .logo{
     display: flex;
-    
+    color: #fafcfe;
 }
 
 div.navbar img{
