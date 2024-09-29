@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 body {
+    font-family: 'Poppins' , sans-serif;
     background-color: #fafcfe;
     color: #05111a;
     margin: 0;
@@ -16,10 +18,16 @@ div.navbar {
 
 }
 
+.nav {
+    padding: 20px;
+    display: flex;
+
+}
+
 div.navbar .nav a{
     text-decoration: none;
     color: #fafcfe;
-
+    padding-right: 10px;
 }
 
 div.navbar .logo{
@@ -58,6 +66,12 @@ table thead tr th{
 table tbody tr td{
     border: 2px solid #05111a;
 
+}
+
+
+.map img{
+    margin-top: 30px;
+    width: 50%;
 }
 
 
