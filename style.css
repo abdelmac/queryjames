@@ -1,23 +1,66 @@
 body {
     background-color: #fafcfe;
     color: #05111a;
+    margin: 0;
 }
 
 div.navbar {
     background-color: #3d97db;
     color: #05111a;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top:0;
+
+}
+
+div.navbar .logo{
+    display: flex;
+    
 }
 
 div.navbar img{
-    width: 10%;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+div.quest{
+    padding-top: 100px;
+    padding-left: 10px;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    margin-top: 70px;
+    width: 40%;
+    border: 2px solid #05111a;
+    border-collapse: collapse;
 }
 
 
+table thead tr th{
+    border: 2px solid #05111a;
+}
+
+table tbody tr td{
+    border: 2px solid #05111a;
+
+}
 
 
 footer {
+    margin-top: 500px;
+    height: 100px;
     background-color: #05111a;
     color: #fafcfe;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 
