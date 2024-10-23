@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-header div.navbar .logo {
+header div.navbar .logo image{
     width: 100px;
 }
 
@@ -44,6 +44,32 @@ div.navbar img{
     width: 40px;
     height: 40px;
 }
+
+div.Titre{
+    margin-top: 50px;
+    height: 300px;
+    border: 0px solid #05111a;
+    border-radius: 0px;
+    width: 100%;
+    margin-left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( 180deg, #05111a 10%, #fff 100% );
+}
+
+div.Titre .visutitre {
+    background-color: #e1ae5b;
+    padding: 10px;
+    opacity: 100%;
+}
+
+div.Titre .visutitre h1 {
+    font: 2em sans-serif;
+    border: #05111a;
+    opacity: 100%;
+}
+
 
 div.quest{
     padding-top: 100px;
